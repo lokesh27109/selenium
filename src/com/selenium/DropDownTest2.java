@@ -22,7 +22,7 @@ public class DropDownTest2 {
 		driver.get("https://www.amazon.in/");
 		
 		WebElement search_cagetory = driver.findElement(By.id("searchDropdownBox"));
-		
+		System.out.println("Hi");
 		Select s = new Select(search_cagetory);
 		
 	     
